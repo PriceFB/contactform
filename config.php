@@ -8,18 +8,18 @@
 
 // The name and address which should be used for the sender details.
 // The name can be anything you want, the address should be something in your own domain. It does not need to exist as a mailbox.
-define('CONTACTFORM_FROM_ADDRESS', 'mailer@example.com');
-define('CONTACTFORM_FROM_NAME', 'Contact Form on example.com');
+define('CONTACTFORM_FROM_ADDRESS', 'mailer@solares.io');
+define('CONTACTFORM_FROM_NAME', 'Contact Form from Solares.io');
 
 // The name and address to which the contact message should be sent.
 // These details should NOT be the same as the sender details.
-define('CONTACTFORM_TO_ADDRESS', 'you@gmail.com');
-define('CONTACTFORM_TO_NAME', 'Your Name');
+define('CONTACTFORM_TO_ADDRESS', 'info@solares.io');
+define('CONTACTFORM_TO_NAME', 'Solares.io');
 
 // The details of your SMTP service, e.g. Gmail.
 define('CONTACTFORM_SMTP_HOSTNAME', 'smtp.gmail.com');
-define('CONTACTFORM_SMTP_USERNAME', 'you@gmail.com');
-define('CONTACTFORM_SMTP_PASSWORD', 'hunter2');
+define('CONTACTFORM_SMTP_USERNAME', 'info@solares.io');
+define('CONTACTFORM_SMTP_PASSWORD', 'gholztlcbbxmnkah');
 
 // The reCAPTCHA credentials for your site. You can get these at https://www.google.com/recaptcha/admin
 define('CONTACTFORM_RECAPTCHA_SITE_KEY', '');
